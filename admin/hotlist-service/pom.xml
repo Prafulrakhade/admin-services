@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.mosip.hotlist</groupId>
 	<artifactId>hotlist-service</artifactId>
-	<version>1.2.1-SNAPSHOT</version>
+	<version>1.2.1.0</version>
 	<name>Hotlist Service</name>
 	<description>Service to block/unblock ids in MOSIP</description>
      <url>https://github.com/mosip/admin-services</url>
@@ -28,10 +28,10 @@
 		<mockito.version>3.3.3</mockito.version>
 
 		<!-- kernel properties -->
-		<kernel-core.version>1.2.1-SNAPSHOT</kernel-core.version>
-		<kernel-websubclient-api.version>1.2.1-SNAPSHOT</kernel-websubclient-api.version>
-		<kernel-logger-logback.version>1.2.1-SNAPSHOT</kernel-logger-logback.version>
-		<kernel.auth.adaptor.version>1.2.1-SNAPSHOT</kernel.auth.adaptor.version>
+		<kernel-core.version>1.2.1.0</kernel-core.version>
+		<kernel-websubclient-api.version>1.2.1.0</kernel-websubclient-api.version>
+		<kernel-logger-logback.version>1.2.1.0</kernel-logger-logback.version>
+		<kernel.auth.adaptor.version>1.2.1.0</kernel.auth.adaptor.version>
 	</properties>
 
 	<repositories>
@@ -60,7 +60,7 @@
 			<dependency>
 				<groupId>io.mosip.kernel</groupId>
 				<artifactId>kernel-bom</artifactId>
-				<version>1.2.1-SNAPSHOT</version>
+				<version>1.2.1.0</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
